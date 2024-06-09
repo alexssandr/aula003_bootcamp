@@ -128,7 +128,51 @@
 ### Exercício 11. Leitura de Dados até Flag
 # Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
 
-palavra_chave = 'ok'
+# palavra_chave = 'ok'
 
-while palavra_chave != 'sair':
-    palavra_chave = input('Digite a palavra-chave:\n')
+# while palavra_chave != 'sair':
+#     palavra_chave = input('Digite a palavra-chave:\n')
+
+### Exercício 12. Validação de Entrada
+# Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
+
+# condition = True
+
+# while condition:
+      
+#     numero = int(input('Digite um numero de 10 a 50:'))
+
+#     if numero >= 10 and numero <= 50:
+#         condition = False
+#     else:
+#         condition = True
+
+### Exercício 13. Consumo de API Simulado
+# Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
+
+# pagina_atual = 1
+# pagina_total = 5
+
+# while pagina_atual <= pagina_total:
+#     print(f'pagina atual: {pagina_atual}')
+#     pagina_atual += 1
+
+### Exercício 14. Tentativas de Conexão
+# Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+
+# tentativa_atual = 1
+# maximo_tentativa = 5
+
+# while tentativa_atual <= maximo_tentativa:
+#     if 
+
+### Exercício 15. Processamento de Dados com Condição de Parada
+# Processar itens de uma lista até encontrar um valor específico que indica a parada.
+itens = [1, 2, 3, "parar", 4, 5]
+
+for i in itens:
+    if i == 'parar':
+        break
+    else:
+        print('processando')
+    
